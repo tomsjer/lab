@@ -1,0 +1,2144 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"liwi\tlineWidth {Prop}"
+			],
+			[
+				"client",
+				"clientX"
+			],
+			[
+				"bin",
+				"bindEvents"
+			],
+			[
+				"origin",
+				"originalHeight"
+			],
+			[
+				"or",
+				"originalHeiight"
+			],
+			[
+				"appl",
+				"applyEdgeForces"
+			],
+			[
+				"img",
+				"imgLoaded"
+			],
+			[
+				"Pa",
+				"ParticleSystem"
+			],
+			[
+				"cl",
+				"clre\tclearRect()"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"rad",
+				"radiusX"
+			],
+			[
+				"radiu",
+				"radiusX"
+			],
+			[
+				"inner",
+				"innerHeight\t.innerHeight()"
+			],
+			[
+				"stro",
+				"strokeStyle"
+			],
+			[
+				"pagiina",
+				"paginationPages"
+			],
+			[
+				"setPa",
+				"setPaginationMarkers"
+			],
+			[
+				"new",
+				"new-container"
+			],
+			[
+				"defautl",
+				"defaultValue"
+			],
+			[
+				"markerI",
+				"markerIconPath"
+			],
+			[
+				"resu",
+				"resultData"
+			],
+			[
+				"pagination",
+				"paginationPages"
+			],
+			[
+				"pag",
+				"pagination"
+			],
+			[
+				"paginati",
+				"paginationPages"
+			],
+			[
+				"pagina",
+				"paginationPages"
+			],
+			[
+				"page",
+				"paginationPages"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"setPla",
+				"setPlaylistMarkup"
+			],
+			[
+				"pla",
+				"playerId"
+			],
+			[
+				"setPlayer",
+				"setPlayerSize"
+			],
+			[
+				"Yout",
+				"YoutubePlaylist"
+			],
+			[
+				"redy",
+				"ready\t$(document).ready"
+			],
+			[
+				"apis",
+				"apisLoaded"
+			],
+			[
+				"init",
+				"initPlayer"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"data",
+				"data-toggle"
+			],
+			[
+				"remove",
+				"removeAttr\t.removeAttr()"
+			],
+			[
+				"you",
+				"youtubeApiLoaded"
+			],
+			[
+				"youtube",
+				"youtube-playlist-wrap"
+			],
+			[
+				"You",
+				"YoutubePlaylistTemplate"
+			],
+			[
+				"text",
+				"textfield"
+			],
+			[
+				"_see",
+				"_seekHandleClickHandler"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"play",
+				"playButton"
+			],
+			[
+				"seekBAr",
+				"seekBarRail"
+			],
+			[
+				"_s",
+				"_seekBarClickHandler"
+			],
+			[
+				"off",
+				"off\t.off()"
+			],
+			[
+				"hradio",
+				"hradioPixel"
+			],
+			[
+				"audio",
+				"audioPlayer"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"toggler",
+				"togglerMethod"
+			],
+			[
+				"mh-main-nav",
+				"mh-main-nav-container-selected"
+			],
+			[
+				"mh-main-na",
+				"mh-main-nav-container"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"fadeIn",
+				"fadeInOutModal"
+			],
+			[
+				"brand",
+				"brandinfo"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"use",
+				"usebackgroundimage"
+			],
+			[
+				"drawer",
+				"drawerId"
+			],
+			[
+				"bullets",
+				"bulletsId"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"Balto-",
+				"Balto-Black"
+			],
+			[
+				"lime-",
+				"lime-a-rita-cta"
+			],
+			[
+				"paddig",
+				"padding-top"
+			],
+			[
+				"nutrition",
+				"nutrition-vc-cont"
+			],
+			[
+				"collap",
+				"collapsed"
+			],
+			[
+				"slidesPa",
+				"slidesPadding992"
+			],
+			[
+				"sp",
+				"sp768"
+			],
+			[
+				"ignore",
+				"ignoreSpecificKeys"
+			],
+			[
+				"attr",
+				"attr\t.attr() - single"
+			],
+			[
+				"age-checker",
+				"age-checker-content"
+			],
+			[
+				"comm",
+				"comm-section-header\tComment - Section header comment"
+			],
+			[
+				"ready",
+				"ready\t$(document).ready"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"age-ce",
+				"age-checker-form"
+			],
+			[
+				"enable",
+				"enableNextInputAutoNew"
+			],
+			[
+				"bgco",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "vectors/index.html",
+			"settings":
+			{
+				"buffer_size": 250,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "// GLOBALS\nwindow.frameCount = 0;\nimport './utils.js';\nimport Arrow from './Arrow.js';\n\nvar reqId, arrow = new Arrow();\n\nfunction setup(){\n    loop();\n    ctx.lineJoin = ctx.lineCap = 'round';\n}\nfunction update(){\n    ++frameCount;\n    // arrow.update();\n}\nfunction render(){\n    ctx.fillStyle=\"rgba(0,0,0,.25)\";\n    ctx.fillRect(0,0,width,height); \n    // ctx.clearRect(0,0,width,height);\n    if(arrow.painting) arrow.display();\n}\n\nfunction loop(){\n    reqId = requestAnimationFrame(loop);\n    update();\n    render();\n}\nsetup();\n\n",
+			"file": "vectors/src/index.js",
+			"file_size": 559,
+			"file_write_time": 131312093756390547,
+			"settings":
+			{
+				"buffer_size": 531,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/tomas.jerman/Sitios/node/functional/reduce.js",
+			"settings":
+			{
+				"buffer_size": 493,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/tomas.jerman/Sitios/node/javascripting/introduction.js",
+			"settings":
+			{
+				"buffer_size": 21,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "console.log('hola');"
+			}
+		},
+		{
+			"file": "node/child.js",
+			"settings":
+			{
+				"buffer_size": 323,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "node/dir/test.js",
+			"settings":
+			{
+				"buffer_size": 57,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vectors/src/utils.js",
+			"settings":
+			{
+				"buffer_size": 611,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vectors/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 295,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vectors/src/Arrow.js",
+			"settings":
+			{
+				"buffer_size": 3289,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vectors/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1683,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 293.0,
+		"last_filter": "livereload",
+		"selected_items":
+		[
+			[
+				"livereload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"setsynjavasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setsynbabel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"installpa",
+				"Package Control: Install Package"
+			],
+			[
+				"llistpa",
+				"Package Control: List Packages"
+			],
+			[
+				"enablepa",
+				"Package Control: Enable Package"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"liverelo",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"setsynhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"disablepa",
+				"Package Control: Disable Package"
+			],
+			[
+				"setsynjavascri",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setsynjavascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setsynjavascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setsynjavas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jsonre",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"json re",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"re",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"setsynjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"HTMLPRETTY",
+				"HTMLPrettify"
+			],
+			[
+				"SETSYNJAVASCRIPT",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"setsyntaxjavascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"ter",
+				"tern_for_sublime: Describe"
+			],
+			[
+				"tern",
+				"tern_for_sublime: Describe"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippetlive",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"indet",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"listpack",
+				"Package Control: List Packages"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"settings",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"sett",
+				"Preferences: Settings - User"
+			],
+			[
+				"htmlpretty",
+				"HTMLPrettify"
+			],
+			[
+				"git diff c",
+				"Git: Diff Current File"
+			],
+			[
+				"setsynt",
+				"Set Syntax: JSON"
+			],
+			[
+				"HTML",
+				"HTMLPrettify"
+			],
+			[
+				"color",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"each",
+				"Snippet: each(handlebars)"
+			],
+			[
+				"setsyn",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"html pretty",
+				"HTMLPrettify"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git:diff",
+				"Git: Diff Current File"
+			],
+			[
+				"setsyntjavas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git: diff",
+				"Git: Diff Current File"
+			],
+			[
+				"setsyncss",
+				"Set Syntax: CSS"
+			],
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"html pre",
+				"HTMLPrettify"
+			],
+			[
+				"setsynh",
+				"Set Syntax: HTML"
+			],
+			[
+				"setsynless",
+				"Set Syntax: LESS"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"setsynjava",
+				"Set Syntax: Java"
+			],
+			[
+				"html pr",
+				"HTMLPrettify"
+			],
+			[
+				"git: lo",
+				"Git: Log Current File"
+			],
+			[
+				"git:commit",
+				"Git: Commit"
+			],
+			[
+				"setsyntaxj",
+				"Set Syntax: JSON"
+			],
+			[
+				"setsyntaxjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"setsynj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htmlpre",
+				"HTMLPrettify"
+			],
+			[
+				"setsynja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setsynjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"cq",
+				"Save to CQ5 author"
+			],
+			[
+				"stsynjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"css",
+				"Format CSS: Expanded"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"setsynht",
+				"Set Syntax: HTML"
+			],
+			[
+				"hm",
+				"HTMLPrettify"
+			],
+			[
+				"use",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"sublime li",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"resour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - User"
+			],
+			[
+				"keybi",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"preferences de",
+				"Preferences: Settings - Default"
+			],
+			[
+				"indenta",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"prett",
+				"Preferences: Settings - User"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"prefes",
+				"Preferences: Settings - User"
+			],
+			[
+				"setsyntjs",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"sublime sett",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"rein",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"jso",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime linter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"enable li",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"enablel",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"key bi",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"sublimelinter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"sublimelinterset",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"setting ",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - User"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 390.0
+	},
+	"console":
+	{
+		"height": 239.0,
+		"history":
+		[
+			"}",
+			"  ",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/tomas.jerman/Sitios/node",
+		"/C/Users/tomas.jerman/Sitios/lab",
+		"/C/Users/tomas.jerman/Sitios/lab/ink",
+		"/C/Users/tomas.jerman/Sitios/lab/node",
+		"/C/Users/tomas.jerman/Sitios/lab/node/dir"
+	],
+	"file_history":
+	[
+		"/C/Users/tomas.jerman/Sitios/lab/vectors/src/Vector.js",
+		"/C/Users/tomas.jerman/Sitios/lab/ink/index.html",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/node_modules/rx/dist/rx.all.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/styles/icons.scss",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/styles/main.scss",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/styles/variables.scss",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/PointParticle.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/LineParticle.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/ParticleSystem.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/Particle.js",
+		"/C/Users/tomas.jerman/Sitios/lab/rain/rain.html",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/SmokeParticle.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/utils.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/.jshintrc",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/gulpfile.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/index.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/index.html",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/package.json",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/index.js.bak.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/sidebar.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/controls.js",
+		"/C/Users/tomas.jerman/Sitios/node/electron/node_modules/cat-picture/node_modules/brfs/index.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/Walker.js",
+		"/C/Users/tomas.jerman/Sitios/node/electron/node_modules/cat-picture/node_modules/brfs/node_modules/static-module/node_modules/escodegen/node_modules/source-map/build/mini-require.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/index.espirales.js.bak",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/src/index.espirales.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/gulpfile.bak.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/.babelrc",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/dist/all.js",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/.gitignore",
+		"/C/Users/tomas.jerman/Sitios/node/functional/trampoline.html",
+		"/C/Users/tomas.jerman/Sitios/lab/asdf/asdf.html",
+		"/C/Users/tomas.jerman/Documents/InsideMRM/bitkucket-credentials.txt",
+		"/C/Users/tomas.jerman/Sitios/node/functional/partialapply.hs",
+		"/C/Users/tomas.jerman/Sitios/node/functional/recursion.js",
+		"/C/Users/tomas.jerman/Sitios/node/sccjs/closures.js",
+		"/C/Users/tomas.jerman/Sitios/node/learnyounode/fsinoutasync.js",
+		"/C/Users/tomas.jerman/Sitios/node/learnyounode/httpjson.js",
+		"/C/Users/tomas.jerman/Sitios/node/learnyounode/httpuppercaser.js",
+		"/C/Users/tomas.jerman/Sitios/node/learnyounode/httpserver.js",
+		"/C/Users/tomas.jerman/Sitios/node/learnyounode/tcp.js",
+		"/C/Users/tomas.jerman/Sitios/node/learnyounode/fsinoutasync2.js",
+		"/C/Users/tomas.jerman/Sitios/node/learnyounode/fsmodule.js",
+		"/C/Users/tomas.jerman/Sitios/node/learnyounode/jugglingasync.js",
+		"/C/Users/tomas.jerman/Sitios/node/patchwork/contributors/add-tomjer.txt",
+		"/C/Users/tomas.jerman/Sitios/node/gitit/gitit-initialcommit.txt",
+		"/C/Users/tomas.jerman/Sitios/node/learnyounode/httpuppercaser",
+		"/C/Users/tomas.jerman/Sitios/node/learnyounode/arguments.js",
+		"/C/Users/tomas.jerman/Sitios/node/learnyounode/log.js",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/modules/imageGalleryComponent.js",
+		"/C/Users/tomas.jerman/Documents/imageGalleryComponent.js",
+		"/C/Users/tomas.jerman/Desktop/sanslibs.js",
+		"/C/Users/tomas.jerman/Desktop/sanstrackplugins.js",
+		"/C/Users/tomas.jerman/Desktop/SANSINDEX.html",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/nutritionalCarousel/nutritionalCarousel.jsp",
+		"/C/AB/README.md",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/modules/youtubePlaylist.js",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/secondarycarousel/secondarycarousel.jsp",
+		"/C/Users/tomas.jerman/Documents/Anheuser-Busch/BudLight/material/slick-dev.js",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/plugins/slick.js",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/config.js",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/fonts/baltoweb-black.eot",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/productlocatorcomponent/productlocatorcomponent.jsp",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplate/i18n/en.xml",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/ageCheckerComponent/partials/subtitle.jsp",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/ageCheckerComponent/partials/budlightRedesignTextInput.jsp",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/ageCheckerComponent/ageCheckerComponent.jsp",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/modules/productLocator.js",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/templates/ProductAdvancedLocator.hbs",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/less/components/product-locator.less",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight-ritas/clientlib/base.less",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight-lime/clientlib/base.less",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/clientlib/base.less",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/clientlib/css.txt",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/productlocatorcomponent/clientlibs/css/ultimateproductlocator.less",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/productlocatorcomponent/clientlibs/css/newproductlocator.css",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/productlocatorcomponent/clientlibs/css.txt",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/productlocatorcomponent/clientlibs/css/ultimateproductlocator.css",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight-mixxtails/clientlib/base.less",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight-platinum/clientlib/base.less",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-platinum/clientlib/base.less",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight-chelada/clientlib/base.less",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/modules/customBg.js",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/modules/ProductLocatorWidget.js",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplate/clientlib/base.less",
+		"/C/Users/tomas.jerman/Documents/Anheuser-Busch/BudLight/material/source_limearita.html",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/modules/productLocatorCountries.json",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/productlocatorcomponent/partials/multiBrand.jsp",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/productlocatorcomponent/partials/multiBrandWithInfo.jsp",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/productlocatorcomponent/partials/advancedLocator.jsp",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/productlocatorcomponent/dialog.xml",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/productlocatorcomponent/partials/model.jsp",
+		"/C/AB/bundle/src/main/java/com/abi/universaltemplate/models/content/ProductLocatorModel.java",
+		"/C/Users/tomas.jerman/Documents/Lab/browser-sync/bs-config.js",
+		"/C/AB/bl-dam/target/classes/content/dam/universaltemplate/Budlight/Our Beers/Bud Light StrawRita/Packaging/00018200005954_CF_8pct.jpg/.content.xml",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/animationConfigurationComponent/dialog.xml",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/ageCheckerComponent/design_dialog.xml",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/footer/footer.jsp",
+		"/C/AB/content/target/classes/etc/designs/universaltemplateFooterclientLibs/public/templates/ProductAdvancedLocator.hbs",
+		"/C/Users/tomas.jerman/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/tomas.jerman/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/tomas.jerman/AppData/Roaming/Sublime Text 3/Packages/User/Tern.sublime-settings",
+		"/C/Users/tomas.jerman/AppData/Roaming/Sublime Text 3/Packages/tern_for_sublime/Tern.sublime-settings",
+		"/C/Users/tomas.jerman/AppData/Local/Temp/Rar$DIa0.260/README.md",
+		"/C/Users/tomas.jerman/AppData/Roaming/Sublime Text 3/Installed Packages/jQuery.sublime-package",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/modules/geolocation.js",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/less/components/campaign-one.less",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/less/components/redesign-2016.less",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/less/components/button-link-redesign.less",
+		"/C/Users/tomas.jerman/Documents/Anheuser-Busch/MichUltra/material/extramile-custom-2016.css",
+		"/C/Users/tomas.jerman/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/controllers/audioComponent.js",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/less/components/grid-component.less",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/less/components/register.less",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/less/components/secondary-carousel.less",
+		"/C/AB/bl-designs/target/classes/etc/designs/universal-template-budlight/less/components/secondary-carousel.less",
+		"/C/AB/bl-designs/target/classes/etc/designs/universal-template-platinum/less/components/secondary-carousel.less",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/controllers/ageGate.js",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/less/components/age-checker-redesign.less",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/campaignOne/campaignOne.jsp",
+		"/C/AB/content/src/main/content/jcr_root/etc/designs/universaltemplateFooterclientLibs/public/js/modules/ageGate.js",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/embedVideo/embedVideo.jsp",
+		"/C/Users/tomas.jerman/Documents/Anheuser-Busch/BudLight/material/html_source_ageGate.html",
+		"/C/Users/tomas.jerman/Documents/Anheuser-Busch/BudLight/material/html_source_bestdam.html",
+		"/C/AB/content/src/main/content/jcr_root/apps/universaltemplate/components/content/musicshelf/musicshelf.jsp",
+		"/C/AB/bl-designs/src/main/content/jcr_root/etc/designs/universal-template-budlight/less/components/musicshelf.less",
+		"/C/Users/tomas.jerman/Documents/Anheuser-Busch/BudLight/material/html_source_estrella.html",
+		"/C/Users/tomas.jerman/Documents/Anheuser-Busch/BudLight/material/html_source_budweiser.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"C:\\AB\\content\\,C:\\AB\\bl-designs\\,*.js",
+			"C:\\AB\\content\\,C:\\AB\\bl-designs\\,*.j",
+			"C:\\AB\\content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content",
+			"C:\\AB\\bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\",
+			"",
+			"C:\\AB\\bdt-designs",
+			"<open folders>",
+			"C:\\AB",
+			"",
+			"<current file>",
+			"C:\\AB\\bl-designs\\src\\main\\content\\jcr_root",
+			"C:\\AB\\content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\ageCheckerComponent",
+			"C:\\AB",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mouseX",
+			"img.height",
+			"img.width",
+			"img.",
+			"innerHeight",
+			"innerWidth",
+			"window",
+			"pos",
+			"self.",
+			"addEvendListener",
+			"dges",
+			"edges.",
+			"s.",
+			"v2",
+			"v1",
+			"x",
+			"wind",
+			"Wind",
+			"wind",
+			"Wind",
+			"wind",
+			"Wind",
+			"wind",
+			"col",
+			"col.",
+			"u",
+			"fill",
+			"mist",
+			"mis",
+			"mist",
+			"vector.",
+			"vector",
+			"window",
+			"x",
+			"var ",
+			"style.",
+			"alpha",
+			"controls",
+			"length",
+			"tau",
+			"couleur",
+			"vitesseY",
+			"vitesseX",
+			"controls",
+			"nombbreb",
+			"nomb",
+			"nombre",
+			"gouttes",
+			"particules",
+			"explosion",
+			"gouttesactives",
+			"parti",
+			"rain",
+			"nombreb",
+			"Rain",
+			"width",
+			"explosion",
+			"2",
+			"red",
+			"explosion",
+			"Rain",
+			"gui",
+			"key",
+			"keypre",
+			"num",
+			"d.",
+			"url",
+			"cb",
+			"gigya",
+			"new TC.Application",
+			"new TC.Application.",
+			"Application.reg",
+			"Application.",
+			"Application.start",
+			"getGallery",
+			"/apps/abi/services/gallery-contest",
+			"new",
+			"new-container",
+			"pagina",
+			"markerPath",
+			"$",
+			"slick_",
+			"custom",
+			"customBrands",
+			"customBrand",
+			"brand",
+			"customBra",
+			"console.log",
+			"pagination",
+			"custom",
+			"marker",
+			"markerIconPath",
+			"customMarkerPath",
+			"tempMarkers",
+			"pagination",
+			"_addNewE",
+			"pagination d",
+			"pagination do",
+			"markerTagImage",
+			"new-container",
+			"if($('.new-container'))",
+			"xtype=\"selection\"",
+			"brandSelect",
+			"customMarkerImg",
+			"result",
+			"resukt",
+			"list",
+			"marker",
+			"pagina",
+			"icon",
+			"pagin",
+			"radioStyle",
+			"_delete",
+			"_remove",
+			"infowindow =",
+			"map",
+			"resultData[i].",
+			"indexes",
+			"array",
+			"html",
+			"pagina",
+			"general-cta-btn",
+			"budlight",
+			"17843A",
+			"modal",
+			"height: 100%",
+			"age-checker",
+			"id=\"univ"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"color"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "vectors/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "9397e9d5",
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "vectors/src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "e4ec3fb8",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/tomas.jerman/Sitios/node/functional/reduce.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "f216fcf5",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/tomas.jerman/Sitios/node/javascripting/introduction.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"auto_name": "console.log('hola');",
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "3aa7d004",
+							"incomplete_sync": null,
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "node/child.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								323
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "a8526090",
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "node/dir/test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "fcbd8753",
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "vectors/src/utils.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "1ae0befa",
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "vectors/styles/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "c89ca4b4",
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "vectors/src/Arrow.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								296,
+								296
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "f9d08525",
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "vectors/gulpfile.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								935,
+								935
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "4f0f28a7",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.440207037588,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 98.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lab.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"utils.js",
+				"lab\\asdf\\src\\utils.js"
+			],
+			[
+				"smoke",
+				"lab\\asdf\\src\\SmokeParticle.js"
+			],
+			[
+				"control",
+				"lab\\asdf\\src\\controls.js"
+			],
+			[
+				"lineparticle",
+				"lab\\asdf\\src\\LineParticle.js"
+			],
+			[
+				"particles",
+				"lab\\asdf\\src\\ParticleSystem.js"
+			],
+			[
+				"gulpfile.js",
+				"lab\\asdf\\gulpfile.js"
+			],
+			[
+				"imagegallery.js",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\imageGalleryComponent.js"
+			],
+			[
+				"youtubepla",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\youtubePlaylist.js"
+			],
+			[
+				"secondarycarousel",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\secondarycarousel\\secondarycarousel.jsp"
+			],
+			[
+				"slickjs",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\plugins\\slick.js"
+			],
+			[
+				"config.js",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\config.js"
+			],
+			[
+				"secondaryca",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\secondarycarousel\\secondarycarousel.jsp"
+			],
+			[
+				"productadvancedlo",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\templates\\ProductAdvancedLocator.hbs"
+			],
+			[
+				"productlocator.js",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\productLocator.js"
+			],
+			[
+				"agechecker.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\ageCheckerComponent\\ageCheckerComponent.jsp"
+			],
+			[
+				"base.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight-chelada\\clientlib\\base.less"
+			],
+			[
+				"nutritionalcarousel.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\nutritionalCarousel\\nutritionalCarousel.jsp"
+			],
+			[
+				"productlocator.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\productlocatorcomponent\\productlocatorcomponent.jsp"
+			],
+			[
+				"nutritionalcarousel.js",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\nutritionalCarousel\\nutritionalCarousel.jsp"
+			],
+			[
+				"limebase.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight-lime\\clientlib\\base.less"
+			],
+			[
+				"95",
+				"bl-dam\\target\\classes\\content\\dam\\universaltemplate\\Budlight\\Our Beers\\Bud Light StrawRita\\Packaging\\00018200005954_CF_8pct.jpg\\.content.xml"
+			],
+			[
+				"product-locator.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\product-locator.less"
+			],
+			[
+				"producta",
+				"content\\target\\classes\\etc\\designs\\universaltemplateFooterclientLibs\\public\\templates\\ProductAdvancedLocator.hbs"
+			],
+			[
+				"productadva",
+				"content\\target\\classes\\etc\\designs\\universaltemplateFooterclientLibs\\public\\templates\\ProductAdvancedLocator.hbs"
+			],
+			[
+				"footer.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\footer\\footer.jsp"
+			],
+			[
+				"footer",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\footer\\footer.jsp"
+			],
+			[
+				"geolocation.js",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\geolocation.js"
+			],
+			[
+				"button-link-rede",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\button-link-redesign.less"
+			],
+			[
+				"redesign2016",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\redesign-2016.less"
+			],
+			[
+				"campaign-one.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\campaign-one.less"
+			],
+			[
+				"redesign-2016",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\redesign-2016.less"
+			],
+			[
+				"productlocator.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\product-locator.less"
+			],
+			[
+				"audio",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\controllers\\audioComponent.js"
+			],
+			[
+				"secondary-ca",
+				"bl-designs\\target\\classes\\etc\\designs\\universal-template-platinum\\less\\components\\secondary-carousel.less"
+			],
+			[
+				"age",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\ageCheckerComponent\\ageCheckerComponent.jsp"
+			],
+			[
+				"agegate.js",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\controllers\\ageGate.js"
+			],
+			[
+				"age-checker-rede",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\age-checker-redesign.less"
+			],
+			[
+				"redesi",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\redesign-2016.less"
+			],
+			[
+				"embedvideo",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\embedVideo\\embedVideo.jsp"
+			],
+			[
+				"agegate",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\ageGate.js"
+			],
+			[
+				"newmul",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\productlocatorcomponent\\partials\\newMultiBrand.jsp"
+			],
+			[
+				"audiocomponent.js",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\controllers\\audioComponent.js"
+			],
+			[
+				"musicshellf.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\musicshelf\\musicshelf.jsp"
+			],
+			[
+				"musicshelf.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\musicshelf.less"
+			],
+			[
+				"campaignone.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\campaignOne\\campaignOne.jsp"
+			],
+			[
+				"findpr",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\findproductfindme.less"
+			],
+			[
+				"findprod",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\findproductandfindme\\findproductandfindme.jsp"
+			],
+			[
+				"redesign-2016.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\redesign-2016.less"
+			],
+			[
+				"geola",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\geolocation.js"
+			],
+			[
+				"advancedresul",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\templates\\FindServiceResults.hbs"
+			],
+			[
+				"advancedlo",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\productlocatorcomponent\\partials\\advancedLocator.jsp"
+			],
+			[
+				"ritasbase.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight-ritas\\clientlib\\base.less"
+			],
+			[
+				"button.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\button\\button.jsp"
+			],
+			[
+				"button-link-redes",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\button-link-redesign.less"
+			],
+			[
+				"redesig",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\redesign-2016.less"
+			],
+			[
+				"findpro",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\findproductfindme.less"
+			],
+			[
+				"finpro",
+				"bl-designs\\target\\classes\\etc\\designs\\universal-template-budlight\\less\\components\\findproductfindme.less"
+			],
+			[
+				"header",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\custom-header-footer.less"
+			],
+			[
+				"productlocator.",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\productLocator.js"
+			],
+			[
+				"redesign-2016.",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\redesign-2016.less"
+			],
+			[
+				"youtube-pla",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\youtube-playlist.less"
+			],
+			[
+				"youtu",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\youtubePlaylist.js"
+			],
+			[
+				"campa",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\campaignOne\\campaignOne.jsp"
+			],
+			[
+				"campaigno",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\campaign-one.less"
+			],
+			[
+				"testinput",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\ageCheckerComponent\\partials\\budlightRedesignTextInput.jsp"
+			],
+			[
+				"youtubeplaylist.js",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\youtubePlaylist.js"
+			],
+			[
+				"redesign-20",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\redesign-2016.less"
+			],
+			[
+				"campaing",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\campaign-one.less"
+			],
+			[
+				"allstar",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\allStarCarousel\\allStarCarousel.jsp"
+			],
+			[
+				"embedvideo.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\embedVideo\\embedVideo.jsp"
+			],
+			[
+				"audiocompo",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\controllers\\audioComponent.js"
+			],
+			[
+				"audio.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\audio\\audio.jsp"
+			],
+			[
+				"audio.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\audio.less"
+			],
+			[
+				"footer-re",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\footer-redesign.less"
+			],
+			[
+				"musicshelf",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\musicshelf\\musicshelf.jsp"
+			],
+			[
+				"age-checker.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-platinum\\less\\components\\age-checker.less"
+			],
+			[
+				"audioco",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\controllers\\audioComponent.js"
+			],
+			[
+				"productfi",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\findproductfindme.less"
+			],
+			[
+				"body.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\page\\landingpage\\body.jsp"
+			],
+			[
+				"age-checker",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\age-checker.less"
+			],
+			[
+				"secondary-carousel.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\secondary-carousel.less"
+			],
+			[
+				"slick.js",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\plugins\\slick.js"
+			],
+			[
+				"secondarycarousel.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-platinum\\less\\components\\secondary-carousel.less"
+			],
+			[
+				"moment.",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\plugins\\moment.js"
+			],
+			[
+				"moment.js",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\plugins\\moment.js"
+			],
+			[
+				"agechecker.",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\ageCheckerComponent\\ageCheckerComponent.jsp"
+			],
+			[
+				"ipcountrylocat",
+				"content\\target\\classes\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\ipCountryLocator.js"
+			],
+			[
+				"nutritional-ca",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\nutritional-carousel.less"
+			],
+			[
+				"nutrition-facts.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\nutrition-facts.less"
+			],
+			[
+				"findproductfindme.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\findproductfindme.less"
+			],
+			[
+				"findproduct",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\findproductandfindme\\findproductandfindme.jsp"
+			],
+			[
+				"findpproductfindme.js",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\findproductandfindme\\clientlibs\\js\\findproductfindme.js"
+			],
+			[
+				"agechecker",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\ageCheckerComponent\\ageCheckerComponent.jsp"
+			],
+			[
+				"productlocatorjs",
+				"content\\target\\classes\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\productLocator.js"
+			],
+			[
+				"ritabase.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight-ritas\\clientlib\\base.less"
+			],
+			[
+				"button-link-redesign.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\button-link-redesign.less"
+			],
+			[
+				"button-",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\button-link.less"
+			],
+			[
+				"nutrition",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\nutritional-carousel.less"
+			],
+			[
+				"redesign",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\redesign-2016.less"
+			],
+			[
+				"searchmodal",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\searchModalComponent\\searchModalComponent.jsp"
+			],
+			[
+				"newm",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\productlocatorcomponent\\partials\\newMultiBrand.jsp"
+			],
+			[
+				"searchmodalco",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\searchModalComponent\\searchModalComponent.jsp"
+			],
+			[
+				"socialemail.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\socialEmail\\socialEmail.jsp"
+			],
+			[
+				"slick.1",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\plugins\\slick.1.6.0.js"
+			],
+			[
+				"nutritionalcarouse",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\nutritionalCarousel\\nutritionalCarousel.jsp"
+			],
+			[
+				"secondary",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\secondarycarousel\\secondarycarousel.jsp"
+			],
+			[
+				"main",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\pageHeader\\mainPageHeader\\mainPageHeader.jsp"
+			],
+			[
+				"header-",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\custom-header-footer.less"
+			],
+			[
+				"nav",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\topNavigationBarComponent.js"
+			],
+			[
+				"button-link-re",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\button-link-redesign.less"
+			],
+			[
+				"secodnarycarosuel.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\secondarycarousel\\secondarycarousel.jsp"
+			],
+			[
+				"redes",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\redesign-2016.less"
+			],
+			[
+				"image-video.",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight-lime\\less\\components\\image-video.less"
+			],
+			[
+				"embed-video.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight-lime\\less\\components\\image-video.less"
+			],
+			[
+				"nutrition-fac",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\nutrition-facts.less"
+			],
+			[
+				"secondarycarousel.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\secondarycarousel\\secondarycarousel.jsp"
+			],
+			[
+				"nutritiona-ca",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\nutritional-carousel.less"
+			],
+			[
+				"productlocator",
+				"content\\src\\main\\content\\jcr_root\\etc\\designs\\universaltemplateFooterclientLibs\\public\\js\\modules\\productLocator.js"
+			],
+			[
+				"secondarycarosuel",
+				"bundle\\src\\main\\java\\com\\abi\\universaltemplate\\models\\content\\SecondaryCarouselModel.java"
+			],
+			[
+				"nutrition-facts",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\nutrition-facts.less"
+			],
+			[
+				"find",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\findproductfindme.less"
+			],
+			[
+				"nutritional-",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\nutritional-carousel.less"
+			],
+			[
+				"social-email.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\social-email.less"
+			],
+			[
+				"age-checker-redesign.less",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\age-checker-redesign.less"
+			],
+			[
+				"social-ema",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\social-email.less"
+			],
+			[
+				"agchecker.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\ageCheckerComponent\\ageCheckerComponent.jsp"
+			],
+			[
+				"age-checker-re",
+				"bl-designs\\src\\main\\content\\jcr_root\\etc\\designs\\universal-template-budlight\\less\\components\\age-checker-redesign.less"
+			],
+			[
+				"grid.jsp",
+				"content\\src\\main\\content\\jcr_root\\apps\\universaltemplate\\components\\content\\grid\\grid.jsp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

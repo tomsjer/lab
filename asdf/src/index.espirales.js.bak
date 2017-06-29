@@ -1,0 +1,40 @@
+var u = require('./utils.js');
+var Walker = require('./Walker.js');
+var walkers = [];
+var cant = 100;
+
+function setup(){
+    for (var i = 0; i < cant; i++) {
+        walkers.push(new Walker({
+            location: new Vector(Math.random()*width,Math.random()*height),
+            velocity: new Vector(1,1),
+            width: 1,
+            height: 1,
+            cont: Math.random(),
+            color: 'rgb(0,'+Math.floor(map(Math.random(),0,1,80,120))+','+Math.floor(map(Math.random(),0,1,200,255))+')'
+        }));
+    }
+    loop();
+}
+
+function update(){
+    
+    walkers.forEach((w)=>{
+        w.update();
+    });
+}
+function render(){
+    // ctx.clearRect(0,0,width,height);
+    // ctx.fillStyle = 'rgba(0,0,0,.001)';
+    // ctx.fillRect(0,0,width,height);
+    
+    walkers.forEach((w)=>{
+        w.display();
+    });
+}
+function loop(){
+    requestAnimationFrame(loop);
+    update();
+    render();
+}
+//setup();

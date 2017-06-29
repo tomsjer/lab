@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		canvas {
+			background: url('l.png');
+			background-size: 100% 100%;
+		    position: absolute;
+		    top:0;
+		    left:0;
+		}
+		button{
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 2
+		}
+	</style>
+</head>
+<body>
+	<button id="btn">ok</button>
+	<canvas id="canvas"></canvas>	
+
+	<script>
+		var canvas = document.getElementById('canvas'),
+			btn = document.getElementById('btn'),
+			ctx = canvas.getContext("2d"),
+			img = new Image(),
+			radius = 40,
+			tempCanvas = document.createElement('canvas'),
+			originalWidth, originalHeight;
+
+        canvas.width = tempCanvas.width = window.innerWidth;
+        canvas.height = tempCanvas.height = window.innerHeight;
+
+        btn.addEventListener('click', function(){
+        
+			img.onload = setup;
+			img.src = "c.jpg";
+
+			function setup() {
+				originalWidth = img.width;
+				originalHeight = img.height;
+				setSizes();
+
+				canvas.onmousemove = function(e) {
+					var r = this.getBoundingClientRect(),
+					x = e.clientX - r.left,
+					y = e.clientY - r.top;
+
+					ctx.beginPath();
+					ctx.moveTo(x + radius, y);
+					ctx.arc(x, y, radius, 0, 2*Math.PI);
+					ctx.fill();
+				};
+
+				window.addEventListener('resize',function(){
+					canvas.width = tempCanvas.width = window.innerWidth;
+        			canvas.height = tempCanvas.height = window.innerHeight;
+        			setSizes();
+				});
+			}
+
+			function setSizes(){
+				var w = (tempCanvas.width > tempCanvas.height) ? tempCanvas.width : (originalWidth*tempCanvas.height)/originalHeight;
+				var h = (tempCanvas.width > tempCanvas.height) ? (originalHeight*tempCanvas.width)/originalWidth : tempCanvas.height;
+				img.width = w;
+				img.height = h;
+				var offsetX = (w !== tempCanvas.width) ? Math.abs(tempCanvas.width-img.width)/2 : 0;
+				var offsetY = (h !== tempCanvas.height) ? Math.abs(tempCanvas.height-img.height)/2 : 0;
+				tempCanvas.getContext('2d').drawImage(img,-offsetX,-offsetY,img.width,img.height);
+				ctx.fillStyle = ctx.createPattern(tempCanvas, "no-repeat");
+			}
+		});
+
+
+
+	</script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

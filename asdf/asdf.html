@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASDF</title>
+    <style>
+        html,body{
+            margin:0;
+            padding:0;
+            width:100%;
+        }
+        html{
+            height:100%;
+        }
+        body{
+            min-height: 100%;
+        }
+        canvas{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <script>
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        var width,height;
+        var pepe = {};
+
+        window.onresize = function(){
+            canvas.width = width =  window.innerWidth;
+            canvas.height = height = window.innerHeight;
+
+        };
+        window.onresize();
+
+        function setup(){
+            pepe = {
+                color: "black",
+                width: 100,
+                height: 100,
+                x: window.innerWidth/2,
+                y: window.innerHeight/2
+            };
+        }
+
+        function update(){
+            pepe.x += (Math.random());
+            pepe.y += (Math.random());
+        }
+
+        function render(){
+            
+            ctx.clearRect(0, 0, width,height);
+            ctx.fillStyle = pepe.color;
+            ctx.fillRect(pepe.x,pepe.y,pepe.width,pepe.height);
+            
+        }
+        setup();
+        (function loop(){
+            requestAnimationFrame(loop);
+            update();
+            render();
+        })();
+
+    </script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

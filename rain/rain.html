@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rain</title>
+    <style>
+        html{
+            width:100%;
+            min-height: 100%;
+            margin:0;
+            padding: 0;
+        }
+        body{
+            width:100%;
+            height:100%;
+            margin:0;
+            padding: 0;
+            background-image:url('https://s-media-cache-ak0.pinimg.com/originals/8f/5a/e7/8f5ae70811c317d0e861fde6cd3a9646.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+        h1{
+            text-align:center;
+            font-size: 56px;
+            text-shadow:2px 2px 2px black;
+            margin-top: 100px;
+            color: grey;
+        }
+        p{
+            width:1000px;
+            margin:auto;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 100;
+            color:grey;
+            /*background: black;*/
+        }
+    </style>
+</head>
+<body>
+    <h1>TITULO ATRAS</h1>
+    <canvas id="canvas" style="position : absolute; top : 0px; left : 0px;z-index:-1;"></canvas>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa corporis quibusdam, vero enim facere incidunt. Alias laudantium, consectetur quam, adipisci soluta rerum odit sit id aliquid, animi, sed repellendus.</p>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.2/dat.gui.min.js"></script> -->
+    <script>
+        
+        requestAnimFrame = (function() {
+        return window.requestAnimationFrame ||
+        window.webkitRequestAnimationFrame ||
+        window.mozRequestAnimationFrame ||
+        window.oRequestAnimationFrame ||
+        window.msRequestAnimationFrame ||
+        function(callback) {
+        window.setTimeout(callback, 1000/60);
+        };
+        })();
+
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        var width = 0;
+        var height = 0;
+        
+        // Mist settings
+        var delta = 0;
+        var gamma;
+
+        // Particles properties settings
+        var accel = 0.6;
+        var minAlpha = 0.1;
+        var minAngle = 70;
+        var maxAngle = 78;
+        var minLength = 25;
+        var maxLength = 95;
+        
+        var mouse = {
+            X : 0,
+            Y : 0
+        };
+        
+        var particles = [];
+
+        window.onresize = function onresize() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        };
+
+        window.onresize();
+
+        window.onmousemove = function onmousemove(event) {
+            mouse.X = event.clientX;
+            mouse.Y = event.clientY;
+        };
+
+        function Rain(X, Y, _intensity) {
+            var intensity = _intensity || 1;
+            var angle = Math.floor(Math.random()*(maxAngle-minAngle+1)+minAngle);
+            var length = Math.floor(Math.random()*(maxLength-minLength+1)+minLength);
+            while (intensity--) {
+                particles.push( 
+                {
+                    velX : (length*accel)*Math.cos(angle*Math.PI/180),//(Math.random()*-1) -4,
+                    velY : (length*accel)*Math.sin(angle*Math.PI/180),//(Math.random()*10) + 12,//(Math.random() * 4) + 5,
+                    X : X,
+                    Y : Y,
+                    length: length,//(Math.random()*10+5),
+                    alpha : (Math.random() + minAlpha),
+                    color : "hsla(0,0%, 100%,1)",
+                });
+            }
+        }
+
+        function render(ctx) {
+
+            ctx.save();
+            ctx.clearRect(0, 0, width, height);
+            
+            var particleslocales = particles;
+
+            for (var i = 0, particlesactives; particlesactives = particleslocales[i]; i++) {
+                    
+                ctx.globalAlpha = particlesactives.alpha;
+                ctx.strokeStyle = particlesactives.color;
+                ctx.beginPath();
+                ctx.moveTo(particlesactives.X, particlesactives.Y);
+                ctx.lineTo(particlesactives.X - particlesactives.velX, particlesactives.Y + particlesactives.velY);
+                ctx.lineWidth = Math.ceil(Math.random()+1);
+                ctx.stroke();
+            }
+
+            ctx.restore();
+        }
+
+        function update() {
+            
+            delta += Math.random()*2;
+            gamma = Math.sin(delta*Math.PI/180);
+            var particleslocales = particles;
+            
+            for (var i = 0, particlesactives; particlesactives = particleslocales[i]; i++) {
+                particlesactives.X -= particlesactives.velX;
+                particlesactives.Y += particlesactives.velY;
+                if (particlesactives.Y > height-15) {
+                    particleslocales.splice(i--, 1);
+                }
+            }
+            
+            Rain(Math.floor((Math.random()*(width + 100))), -25);
+        }
+        (function boucle() {
+            requestAnimFrame(boucle);
+            update();
+            render(ctx);
+        })();
+    </script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
